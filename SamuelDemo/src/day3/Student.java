@@ -15,6 +15,14 @@ public class Student {
 		System.out.println("hey,"+name+" time to study");
 	}
 	
+	public void selfIntroduce() {
+		System.out.println("introduct myself:");
+		System.out.println("Id:"+id);
+		System.out.println("Name:"+name);
+		System.out.println("Age:"+age);
+		System.out.println("Gender:"+gender);
+	}
+	
 }
 
 
